@@ -16,16 +16,21 @@ CodeMentor is an intelligent Chrome extension designed to assist coders by provi
 ## 🧠 Core Features
 
 ### ✅ Intelligent Problem Detection
-- Auto-detect platforms (LeetCode, HackerRank, CodeForces)
+- Auto-detect platforms (LeetCode(for my impleted just this), HackerRank, CodeForces)
 - Extract problem metadata: title, difficulty, tags, constraints
 - Track URL changes and problem context
+<img width="1919" height="907" alt="Screenshot 2025-07-22 191735" src="https://github.com/user-attachments/assets/49871f0b-df8b-41cf-bd7c-49481cfa53c1" />
+
 
 ### ✅ Progressive Hint System (5 Levels)
 1. Problem type identification  
 2. Approach suggestion  
 3. Data structure hints  
 4. Implementation guidance  
-5. Debugging tips  
+5. Debugging tips
+<img width="1919" height="912" alt="Screenshot 2025-07-22 181822" src="https://github.com/user-attachments/assets/5f4594e3-3c89-461c-821a-2ea055a1b452" />
+
+
 
 ### ✅ Code Analysis Engine
 - Real-time editor tracking
