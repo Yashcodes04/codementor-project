@@ -1,0 +1,11 @@
+{
+  "name": "codementor-extension",
+  "version": "1.0.0",
+  "description": "CodeMentor AI Learning Assistant",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "dev": "echo 'Development mode'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

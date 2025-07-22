@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "CodeMentor AI Assistant",
+  "version": "1.0.0",
+  "description": "AI-powered coding hints for LeetCode problems",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CodeMentor Assistant"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["*.html", "*.css", "*.js"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
+}
